@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Products App</title>
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="bg-light">
+    <header class="container text-center py-5">
+      <h1 class="display-5 fw-bold mb-4">Products App</h1>
+      <button id="showBtn" type="button" class="btn btn-primary btn-lg px-5">
+      </button>
+    </header>
+    <main class="container pb-5">
+      <!-- Status messages (loading / error) -->
+      <div id="status" class="text-center mb-4" aria-live="polite"></div>
+      <div id="products" class="row g-4"></div>
+    </main>
+    <script src="bootstrap.bundle.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
